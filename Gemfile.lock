@@ -58,6 +58,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  json
   pg
   rake
   sinatra
