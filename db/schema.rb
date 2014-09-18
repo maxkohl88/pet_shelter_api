@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(version: 20140918175528) do
     t.string   "breed",      null: false
     t.string   "image_url"
     t.string   "location",   null: false
-    t.integer  "latitude"
-    t.integer  "longitude"
+    t.text     "latitude"
+    t.text     "longitude"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
