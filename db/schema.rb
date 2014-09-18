@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20140918175528) do
 
   create_table "pets", force: true do |t|
     t.string   "name",       null: false
-    t.string   "type",       null: false
+    t.string   "species",    null: false
     t.string   "breed",      null: false
     t.string   "image_url"
     t.string   "location",   null: false
