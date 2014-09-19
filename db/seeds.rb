@@ -55,7 +55,7 @@ id: 6,
 name: "Dog",
 species: "Dog",
 breed: "Dog",
-image_url: "http://blowmy900.info/wp-content/uploads/2012/01/hello-yes-this-is-dog-original.jpg",
+image_url: "http://i2.wp.com/seriouslyguys.com/wp-content/uploads/2013/09/hello-yes-this-is-dog-original.jpg",
 location: "Seattle, WA",
 latitude: "47.6097Â° N",
 longitude: "122.3331Â° W")
