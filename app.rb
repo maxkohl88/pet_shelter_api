@@ -5,9 +5,11 @@ require 'json'
 require './pet.rb'
 
 get '/' do
-  'Pets!'
+  'Thanks for visiting the pet shelter API! For JSON information on all pets, please
+  visit /pets. To retrieve information on an individual pet, please visit pets/id'
 end
 
+# index page for all pets
 get '/pets' do
   content_type :json
 
@@ -16,6 +18,7 @@ get '/pets' do
   @pets.to_json
 end
 
+# 'show' page for each individual pet
 get '/pets/:id' do
   content_type :json
 

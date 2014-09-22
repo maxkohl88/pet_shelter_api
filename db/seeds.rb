@@ -1,7 +1,8 @@
+# delete all pet records
 Pet.delete_all
 
+# seed the database with six initial pets
 Pet.create(
-id: 1,
 name: "Mr. Snickers",
 species: "Dog",
 breed: "Corgi",
@@ -11,7 +12,6 @@ latitude: "42.3736",
 longitude: "-71.1106")
 
 Pet.create(
-id: 2,
 name: "Lucy",
 species: "Dog",
 breed: "Mutt",
@@ -21,7 +21,6 @@ latitude: "41.2000",
 longitude: "73.4333")
 
 Pet.create(
-id: 3,
 name: "Snakecat",
 species: "Cat",
 breed: "Weird",
@@ -31,7 +30,6 @@ latitude: "34.0219",
 longitude: "-118.4814")
 
 Pet.create(
-id: 4,
 name: "Butters",
 species: "Cat",
 breed: "Calico",
@@ -41,7 +39,6 @@ latitude: "30.2500",
 longitude: "-97.7500")
 
 Pet.create(
-id: 5,
 name: "Bosco",
 species: "Dog",
 breed: "St. Bernard",
@@ -51,7 +48,6 @@ latitude: "44.9833",
 longitude: "-93.2667")
 
 Pet.create(
-id: 6,
 name: "Dog",
 species: "Dog",
 breed: "Dog",

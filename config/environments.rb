@@ -1,8 +1,10 @@
+# configure the development database to use sqlite3
 configure :development do
  set :database, 'sqlite3:dev.db'
  set :show_exceptions, true
 end
 
+# configure production database to use postgresql (for hosting on heroku)
 configure :production do
  db = URI.parse(ENV['DATABASE_URL'] || 'postgres:///localhost/mydb')
 
