@@ -18,7 +18,7 @@ breed: "Mutt",
 image_url: "http://www.dogbreedpic.com/wp-content/uploads/2014/01/golden-retriever-chow-mixchow-golden-retriever-mix-mix-breed-dog-photos---all-mutt-opekswdz.jpg",
 location: "Wilton, CT",
 latitude: "41.2000",
-longitude: "73.4333")
+longitude: "-73.4333")
 
 Pet.create(
 name: "Snakecat",
