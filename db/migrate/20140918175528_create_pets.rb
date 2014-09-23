@@ -5,9 +5,8 @@ class CreatePets < ActiveRecord::Migration
       t.string :species, null: false
       t.string :breed, null: false
       t.string :image_url
-      t.string :location, null: false
-      t.decimal :latitude
-      t.decimal :longitude
+      t.decimal :latitude, null: false
+      t.decimal :longitude, null: false
 
       t.timestamps
     end
