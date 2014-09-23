@@ -14,7 +14,7 @@ Pet.create(
 name: "Lucy",
 species: "Dog",
 breed: "Mutt",
-image_url: "http://www.dogbreedpic.com/wp-content/uploads/2014/01/golden-retriever-chow-mixchow-golden-retriever-mix-mix-breed-dog-photos---all-mutt-opekswdz.jpg",
+image_url: "http://www.dogbreedinfo.com/images11/MixDuckTollingRetrieverGoldenRetriever.jpg",
 latitude: "41.2000",
 longitude: "-73.4333")
 
@@ -22,7 +22,7 @@ Pet.create(
 name: "Snakecat",
 species: "Cat",
 breed: "Weird",
-image_url: "http://www.wallcoo.net/animal/1600_homeless_Cat_03/images/city_cat_5db-003311-x.jpg",
+image_url: "http://upload.wikimedia.org/wikipedia/commons/8/8a/Longcat_(6435769739).jpg",
 latitude: "34.0219",
 longitude: "-118.4814")
 
